@@ -1,0 +1,12 @@
+:root {
+  --accent-color: #f1f1f1;
+}
+
+footer {
+	background: var(--accent-color);
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
