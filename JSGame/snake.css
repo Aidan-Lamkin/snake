@@ -1,9 +1,13 @@
 :root {
-  --accent-color: #f1f1f1;
+  --accent-color: #333;
+  --text-color: white;
+  --dark-color: #333;
 }
 
 body {
+	background-color: #999;
 	margin: 0px;
+	color: var(--text-color);
 }
 
 .title {
@@ -15,7 +19,7 @@ body {
 .gridContainer {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-column-gap: 10px;
+	grid-column-gap: 0px;
 }
 
 footer {
@@ -25,4 +29,26 @@ footer {
 	bottom: 0;
 	left: 0;
 	width: 100%;
+}
+
+.leftAside {
+	background-color: var(--accent-color);
+	margin-top: 17px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.rightAside {
+	background-color: var(--accent-color);
+	margin-top: 17px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+@media only screen and (max-width: 1000px) {
+	grid-column: 3/3;
 }
