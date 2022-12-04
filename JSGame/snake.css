@@ -49,6 +49,10 @@ footer {
 	padding-right: 25%;
 }
 
+ul{
+	list-style-type: none;
+}
+
 @media only screen and (max-width: 1000px) {
 	grid-column: 3/3;
 }

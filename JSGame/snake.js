@@ -51,7 +51,6 @@ function update(){
         document.getElementById("scoreValue").innerHTML = score;
         //if game is over return
         if(gameOver){
-            score = 0;
             start = false;
             reset();
         }
@@ -145,5 +144,12 @@ function reset(){
 
     body = [];
 
+    var ul = document.getElementById("scoreHistory");
+    var li = document.createElement('li');
+    li.appendChild(document.createTextNode(score));
+    ul.appendChild(li);
+
     score = 0;
+
+    
 }
