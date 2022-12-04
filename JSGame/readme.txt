@@ -3,7 +3,7 @@ difficult was interacting with the canvas; it took a lot of trial and error to f
 correctly draw the snake and its food as the game progressed. For example, it was tricky to determine
 how to randomize where the food was and how to increase the length of the snake's body and continue 
 to draw these to the canvas without creating errors or delays. Another aspect that was slightly 
-difficult was hadnling the edge cases. In our game, we made it so that the snake dies when it hits its
+difficult was handling the edge cases. In our game, we made it so that the snake dies when it hits its
 own body and when it hits the edge of the screen. Figuring out how to track its movement so we knew 
 when it exactly it hit itself or when it hit the edge of the screen was difficult, but we were able to 
 solve it through the use of Google and trial and error. The final piece that was hard to code was 
@@ -19,7 +19,7 @@ offer, it was convenient and practical to use what we already knew to create a s
 To make our game more visually appealing and user-friendly, we added a "Score History" section that 
 showed the user their previous game scores. To accomplish this, we had to ensure that the html was 
 organized with the correct asides to ensure the layout was aesthetically pleasing and easy to follow.
-It was a littlye tricky to get this correct at first, but using help from previous labs, we were able
+It was a little tricky to get this correct at first, but using help from previous labs, we were able
 to finalize a correct layout. Furthermore, it was imperative to have a way to keep track of game scores,
 which we figured out through the use of a sscore variable that kept track of the current game's score,
 outputted it to the "Score History" section, and then resetted the value after each game. Furthermore, 
